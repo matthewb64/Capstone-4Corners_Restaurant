@@ -1,0 +1,244 @@
+/* Reservation text wrap start */
+.reservation-text-wrap
+{
+    height: fit-content;
+    width: 100%;
+}
+.reservation-image-wrap
+{
+    width: 100%;
+    max-height: 40%;
+}
+.reservation-image
+{
+    height: 100%;
+    width: 100%;
+}
+.reservation-image img
+{
+    height: 100%;
+    width: 100%;
+}
+.reservation-text
+{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+/* Reservation text wrap end */
+
+/* Reserve table text wrap start */
+.reserve-table-text-wrap
+{
+    padding: 6%;
+    width: 100%;
+    height: fit-content;
+}
+.reserve-table-text-label
+{
+    padding-left: 5%;
+    font-size: 24px;
+    font-weight: 400;
+}
+.reserve-table-text
+{
+    padding-top: 5%;
+}
+/* Reserve table text wrap end */
+
+/* Reservation info wrap start */
+.reservation-info-wrap
+{
+    padding-left: 10%;
+    width: 90%;
+    height: fit-content;
+}
+.reservation-info-label-wrap
+{
+    display: flex;
+    flex-direction: column;
+}
+.reservation-info-label
+{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(24, 12, 65);
+}
+.reservation-info-label-text
+{
+    padding-top: 1%;
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+}
+.reservation-info-wrap .container
+{
+    display: flex;
+    height: 40rem;
+}
+.reservation-info-images-wrap
+{
+    padding-top: 2%;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.reservation-logo-wrap
+{
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 20%;
+}
+.reservation-logo-wrap a
+{
+    width: 100%;
+    height: 100%;
+}
+.reservation-logo-wrap img
+{
+    position: absolute;
+    z-index: 100;
+    margin-top: 5%;
+    width: 10%;
+    max-height: 20%;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.reservation-logo-wrap img:hover
+{
+    background-color: rgba(0,0,0,0.5);
+}
+.reservation-restaurant-image-wrap
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.reservation-restaurant-image-wrap .restaurant-image
+{
+    position: absolute;
+    width: 100%;
+    max-height: 80%;
+    z-index: -2;
+    opacity: 0.95;
+}
+/* Reservation info wrap end */
+
+/* Reservation info reserve wrap start */
+.reservation-info-reserve-wrap
+{
+    width: 60%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.reservation-reserve-label
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff0065;
+}
+.reservation-reserve-text h1
+{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: #272036;
+    font-size: 50px;
+    font-weight: 700;
+}
+.reservation-reserve-text em
+{
+    position: relative;
+    font-size: 18px;
+    color: gray;
+}
+.reservation-reserve-info
+{
+    padding-top: 10%;
+}
+.reservation-reserve-info .col div h3
+{
+    font-size: 35px;
+    font-weight: 800;
+    color: #ff0065;
+}
+.reservation-reserve-info .col div h6
+{
+    color: gray;
+}
+.reservation-reserve-button-wrap
+{
+    padding-top: 20%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-height: 40%;
+}
+.reservation-reserve-button-wrap button
+{
+    height: 100%;
+    width: 100%;
+    color: orangered;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.reservation-reserve-button-wrap button:hover
+{
+    color: #fff;
+    background-color: rgba(0,0,0,1);
+}
+/* Reservation info reserve wrap end */
+
+/* Media */
+@media (max-width: 1600px)
+{
+    .reservation-text{
+        top: 38%;
+        font-size: 40px;
+    }
+}
+@media (max-width: 1200px)
+{
+    .reservation-text{
+        top: 33%;
+        font-size: 35px;
+    }
+}
+@media (max-width: 992px)
+{
+    .reservation-text{
+        top: 28%;
+        font-size: 30px;
+    }
+}
+@media (max-width: 768px)
+{
+    .reservation-text{
+        top: 23%;
+        font-size: 25px;
+    }
+}
+@media (max-width: 576px)
+{
+    .reservation-text{
+        top: 18%;
+        font-size: 20px;
+    }
+}

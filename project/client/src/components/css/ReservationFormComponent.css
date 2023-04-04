@@ -1,0 +1,9 @@
+.reservation-from-text-wrap
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 4%;
+
+}

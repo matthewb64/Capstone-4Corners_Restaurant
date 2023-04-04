@@ -1,0 +1,21 @@
+.services-menu-label
+{
+    text-align: center;
+    padding: 1.5%;
+}
+.services-menu-selection-wrap
+{
+    display: flex;
+    flex-direction: column;
+}
+.selection-buttons-container
+{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+.menu-selection-variants
+{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}

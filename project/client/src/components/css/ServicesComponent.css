@@ -1,0 +1,31 @@
+.services-image-wrap
+{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+}
+.services-image
+{
+    display: block;
+    width: 100%;
+}
+.services-image img
+{
+    display: block;
+    width: 100%;
+    max-height: 100%;
+}
+.services-image-label
+{
+    width: 100%;
+    padding-top: 20%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-image-label h1
+{
+    font-weight: 700;
+    font-size: 50px;
+}

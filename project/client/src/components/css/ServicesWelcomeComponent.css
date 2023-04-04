@@ -1,0 +1,11 @@
+.welcome-services-wrap
+{
+    position: relative;
+    display: flex;
+    height: 55rem;
+    background-color: rgba(184, 184, 184, 0.75);
+}
+.welcome-services-wrap .container
+{
+    display: flex;
+}

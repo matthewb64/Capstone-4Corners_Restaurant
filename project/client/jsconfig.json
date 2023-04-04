@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "components": ["./src/components"],
+      "pages": ["./src/pages"],
+      "templates": ["./src/templates"]
+
+    }
+  },
+  "include": ["src/**/*"]
+}
